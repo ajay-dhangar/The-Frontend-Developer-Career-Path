@@ -1,0 +1,69 @@
+:root {
+    --wooden: url(https://scrimba.ams3.digitaloceanspaces.com/assets/courses/gdegree/Horror/wooden.jpg);
+    --forest: url(https://scrimba.ams3.digitaloceanspaces.com/assets/courses/gdegree/Horror/forest.jpg);
+    --sweets: url(https://scrimba.ams3.digitaloceanspaces.com/assets/courses/gdegree/Cute/sweets1.jpg);
+    --bubbles: url(https://scrimba.ams3.digitaloceanspaces.com/assets/courses/gdegree/Cute/bubbles.jpg);
+    --crackle: url(https://scrimba.ams3.digitaloceanspaces.com/assets/courses/gdegree/Minimalist/crackle.jpg);
+    --sparkle: url(https://scrimba.ams3.digitaloceanspaces.com/assets/courses/gdegree/Minimalist/sparkle.jpg);
+    --rainbow: url(https://scrimba.ams3.digitaloceanspaces.com/assets/courses/gdegree/Rainbow/rainbow-paint.jpg);
+    --smoke: url(https://scrimba.ams3.digitaloceanspaces.com/assets/courses/gdegree/Rainbow/rainbow-smoke.jpg);
+    --nightsky: url(https://scrimba.ams3.digitaloceanspaces.com/assets/courses/gdegree/Sleek/nightsky.jpg);
+    --sunset: url(https://scrimba.ams3.digitaloceanspaces.com/assets/courses/gdegree/Sleek/sunset.jpg);
+
+    
+    /* COLORS */
+    --blood: #8a0303;
+    --slime: #228B22;
+    --gloom: #2B363B;
+    --candy: #ee698e;
+    --purple: #7B1E7A;
+    --blue: #2176AE;
+    --olive: #A6C48A;    
+    --royal: #0A1045;
+    --lilac: #B8AED6;
+    --snow: #d8e70d;
+    
+    /* FONTS */
+    --scary-font: 'Metal Mania';
+    --typewriter-font: 'Inconsolata';
+    --funny-font: 'Balsamiq Sans';
+    --curly-font: 'Pacifico';
+    --old-style-font: 'Cinzel';
+    --simple-font: 'Noto Sans HK';
+    --funky-font: 'MuseoModerno';
+    --sweet-font: 'Lobster';
+}
+
+
+body {
+
+    /*
+    CHALLENGE: change the background to one you like
+    */
+    
+    --background-image: var(--forest);
+    
+    /*
+    CHALLENGE: change the main color to one you like!
+    */
+    --main-color: var(--snow);
+    
+     /* 
+    CHALLENGE: change the font to one you think is cool
+    */
+    /* font-family: var(--simple-font); */
+    font-family: var(--scary-font);
+}
+
+
+.grid {
+    
+   column-count: 3;
+   column-gap: 8px;
+}
+
+.img {    
+    border-image: var(--nightsky) 100;   
+
+}
+
