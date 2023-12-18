@@ -1,0 +1,107 @@
+:root {
+  --radius: 5px;
+  --main-frame: 15px solid white;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('/xmas-bg3.png');
+    background-size: cover;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+}
+
+main {
+    display: flex;
+    margin: 0 auto;
+    position: relative;
+    padding: 0;
+}
+
+img {
+    height: 450px;
+    display: block;
+}
+
+.left-door {
+    border: var(--main-frame);
+    border-right: 0;
+    border-top-left-radius: var(--radius);
+    border-bottom-left-radius: var(--radius);
+}
+
+.left-door img {
+    border-right: 0;
+    border-top-left-radius: var(--radius);
+    border-bottom-left-radius: var(--radius);
+}
+
+.right-door {
+    border: var(--main-frame);
+    border-left: 0;
+    border-top-right-radius: var(--radius);
+    border-bottom-right-radius: var(--radius);
+}
+
+.right-door img {
+    border-left: 0;
+    border-top-right-radius: var(--radius);
+    border-bottom-right-radius: var(--radius);
+}
+
+.joke-display {
+    position: absolute;
+    background-color: white;
+    opacity: 0;
+    left: 0; 
+    right: 0; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: var(--main-frame);
+    height: 100%;
+    padding: 1em;
+    cursor: pointer;
+}
+
+/* animation */
+
+@keyframes display-joke {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes left-open {
+  0% {
+        transform: translateX(0%);
+      }
+  100% {
+        transform: translateX(-100%);
+      }
+}
+
+@keyframes right-open {
+  from {
+        transform: translateX(0%);
+      }
+  to {
+        transform: translateX(100%);
+      }
+}
+
+
+

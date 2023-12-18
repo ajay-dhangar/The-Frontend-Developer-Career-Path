@@ -8,10 +8,10 @@
 favouriteFruit("regular")
 
 // light, dark
-// favouriteMode("light")
+favouriteMode("light")
 
 // sharp, soft, round
-// favouriteEdgeStyle("sharp")
+favouriteEdgeStyle("sharp")
 
 
 
