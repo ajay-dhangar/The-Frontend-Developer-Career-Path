@@ -2,6 +2,7 @@
 
 Learn the very basics of HTML and CSS. Start creating layouts, and style them how you want.
 
+<<<<<<< HEAD
 ## Intro - web dev basics
 
 ### Let's learn HTML!
@@ -43,3 +44,8 @@ Learn the very basics of HTML and CSS. Start creating layouts, and style them ho
 4. Space Exploration Site
 5. BirthDay Gift Site
 6. Hometown homepage
+=======
+1. Intro basic web dev
+2. Google Clone [Live Demo](https://html-mastery.github.io/google.com/)
+3. personal website
+>>>>>>> 3caf35ffb16737d47cd552a7d10090485e9c20c2
